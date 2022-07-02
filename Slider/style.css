@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.slider-container{
+    width: 50%;
+    height: 70vh;
+    box-shadow: 11px 13px 63px 22px rgba(0,0,0,0.52);
+    text-align: center;
+    padding: 1rem;
+}
+
+.author-image{
+    width: 100px;
+    border-radius: 10rem;
+    margin-top: 2rem;
+}
+.author-name{
+    margin: 2rem 2rem;
+    font-size: 1.8rem;
+    
+}
+.buttons{
+    margin-top: 1rem;
+}
+.next-btn{
+    cursor: pointer;
+    padding: .8rem;
+}
+.prev-btn{
+    cursor: pointer;
+    padding: .8rem;
+
+}
