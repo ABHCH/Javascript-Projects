@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eaeaea;
+    opacity: 1;
+}
+
+.login-page{
+   width: 30%;
+   height: 70vh;
+   box-shadow: 5px 3px 7px 0px rgba(0, 0, 0, 0.77);
+   background-color: white;
+   border-radius: 1rem;
+   padding: 2rem;
+}
+
+.head{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form{
+    margin-top: 3rem;
+}
+
+.form input{
+    display: block;
+    width: 100%;
+    padding: .3rem;
+    outline: none;
+    border: none;
+    background-color: #eaeaea;
+    margin-top: .4rem;
+}
+.password-area{
+    margin-top: 1rem;
+}
+
+.login-btn{
+    margin-top: 2rem;
+    width: 100%;
+    background-color: crimson;
+    padding: .5rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 3px 7px 0px rgba(0, 0, 0, 0.77);
+}
+
+.account{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+}
+.linkdien{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.github{
+    font-size: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.twitter{
+    font-size: 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.linkdien:hover{
+    transition: 450ms;
+    transform: translateY(-10px);
+}
+.twitter:hover{
+    transition: 450ms;
+    transform: translateY(-10px);
+}
+.github:hover{
+    transition: 450ms;
+    transform: translateY(-10px);
+}
+
+/* appp */
+
+.app{
+    opacity: -1;
+    transition: 450ms;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+}
+
+.logo-line{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.new{
+    color: crimson;
+}
+.tag-line{
+    font-size: .8rem;
+}
+
+.logout-btn{
+    padding: .8rem;
+    border: none;
+    width: 10%;
+    background-color: rgb(6, 31, 31);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.add-trans{
+    padding: .8rem;
+    border: none;
+    width: 10%;
+    background-color: rgb(6, 31, 31);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#myChart{
+    position: absolute;
+    left: 20%;
+}
+
+.chart-container{
+   width: 60%;
+   height: 70vh;
+}
+
+.expense-tracker{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.adding-trans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.transaction-area{
+    margin-top: 3rem;
+    background-color: white;
+    width: 50%;
+    height: 40vh;
+    overflow-y: scroll;
+    position: absolute;
+    left: 25%;
+}
+
+/* income */
+
+.income-type{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.income{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: green;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.income-name{
+    flex: 1;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* expense */
+.income-type{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.expense{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: crimson;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.expense-name{
+    flex: 1;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

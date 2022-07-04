@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://png.pngtree.com/png-clipart/20190904/original/pngtree-orange-wallet-icon-png-image_4462385.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker || Track your Expense </title>
+</head>
+<body>
+    <!-- login page -->
+    <div class="login-container">
+        <div class="login-page">
+            <div class="head">Login</div>
+            <div class="form">
+                <div class="username-area">
+                    <label>Username</label>
+                    <input class="user-name" type="text">
+                </div>
+                <div class="password-area">
+                    <label>Password</label>
+                    <input class="user-password" type="password">
+                </div>
+                <div class="button">
+                    <button class="login-btn">Login</button>
+                </div>
+                <div class="account">
+                    <div class="linkdien"><i class="fa-brands fa-linkedin"></i></div>
+                    <div class="github"><i class="fa-brands fa-github"></i></div>
+                    <div class="twitter"><i class="fa-brands fa-twitter"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- app area -->
+    <!-- header -->
+    <div class="app">
+        <header>
+            <div class="logo"><span class="logo-line">Expense <span class="new">Tracker</span></span></span><br>
+                <span class="tag-line">Here, Track your Expenses</span>
+            </div>
+            <button class="logout-btn">Logout</button>
+            <button class="add-trans">Add</button>
+        </header>
+
+       <!-- <div class="chart-container">
+        <canvas id="myChart"></canvas>
+       </div> -->
+
+       <div class="main-working-area">
+           <div class="expense-tracker">
+               <div class="wallet-icon" style="font-size: 1.8rem; font-weight: bold;">Wallet  <i class="fa-solid fa-wallet"></i></div>
+               <div class="wallet-balance" style="font-size: 1.8rem; font-weight: bold;">2000+</div>
+           </div>
+       </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
