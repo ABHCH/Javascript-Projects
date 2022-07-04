@@ -12,7 +12,8 @@
     align-items: center;
     height: 100vh;
     background-color: #eaeaea;
-    opacity: 1;
+    transition: 0.5s;
+    opacity: -1;
 }
 
 .login-page{
@@ -97,8 +98,8 @@
 /* appp */
 
 .app{
-    opacity: -1;
-    transition: 450ms;
+    opacity: 1;
+    transition: 0.9s ease-in linear;
     position: absolute;
     top: 0%;
     width: 100%;
@@ -175,6 +176,9 @@ header{
 }
 
 /* income */
+/* .blur-bg{
+    filter: blur(10px);
+} */
 
 .income-type{
     width: 100%;
@@ -223,4 +227,50 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.modal-window{
+    width: 30%;
+    height: 45vh;
+    box-shadow: 1px 1px 1px 3px rgba(0, 0, 0, 0.77);
+    position: absolute;
+    left: 35%;
+    visibility: hidden;
+    z-index: -10;
+    backdrop-filter: blur(10px);
+}
+.open-modal{
+    visibility: visible;
+    z-index: 10;
+    transform: 450ms;
+}
+.form-modal{
+    padding: 3rem;
+    position: relative;
+}
+
+.form-modal input{
+    display: block;
+    width: 100%;
+    margin-top: .6rem;
+}
+
+.button-area{
+    margin-top: 2rem;
+}
+.income-btn{
+    width: 100%;
+}
+.expense-btn{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#icon-mark{
+    position: absolute;
+    right: 10%;
+    top: 6%;
+    font-size: 1.7rem;
+    cursor: pointer;
+
 }
